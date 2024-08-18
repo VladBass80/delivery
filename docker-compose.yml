@@ -10,6 +10,7 @@ services:
       - host.docker.internal:host-gateway
     volumes:
       - ./:/app:cached
+      - ./var/phpstorm-coverage:/opt/phpstorm-coverage:cached
     ports:
       - 8080:8080
     working_dir: /app
