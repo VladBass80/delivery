@@ -26,7 +26,3 @@ RUN set -x  \
 USER www-data
 
 FROM base AS production
-
-COPY --chown=www-data:www-data . /var/www/html
-
-ENTRYPOINT ["top", "-b"]
