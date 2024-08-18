@@ -21,9 +21,9 @@
         </testsuite>
     </testsuites>
 
-    <coverage>
-    </coverage>
-
-    <extensions>
-    </extensions>
+    <source>
+        <include>
+            <directory>src</directory>
+        </include>
+    </source>
 </phpunit>
