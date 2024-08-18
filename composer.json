@@ -1,0 +1,8 @@
+{
+  "name": "vladbass80/delivery",
+  "version": "dev-1.0.0",
+  "description": "DDD course homework",
+  "require": {
+    "php": "^8.3"
+  }
+}
